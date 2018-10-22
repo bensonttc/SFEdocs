@@ -1,0 +1,15 @@
+{
+    "projectName": "edocs",
+    "username": "benson.daniel@ttc.com.bdprimary",
+    "id": "936c9430-ac5e-11e8-9a95-b9d1b9a5640b",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://cs105.salesforce.com",
+    "workspace": "/Users/benson.daniel/salesforce/bdprimary",
+    "subscription": [
+        "ApexClass",
+        "ApexTrigger",
+        "CustomMetadata"
+    ]
+}

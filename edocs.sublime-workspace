@@ -1,0 +1,435 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"v",
+				"PUBLIC valueOf(String str) \tDecimal"
+			],
+			[
+				"a",
+				"assertEquals()"
+			],
+			[
+				"Market",
+				"MCNEW_Marketing_Consent_RuleService"
+			],
+			[
+				"t",
+				"assertEquals()"
+			],
+			[
+				"no",
+				"normalMC"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/classes/REST_savePassengerDocs_Longitude.cls",
+			"settings":
+			{
+				"buffer_size": 37698,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Json I got back\nUntitled \n{ \n \"status\":\"failure\",\n \"message\":\"There are no Passengers in Salesforce for tour Dashing through the Danube (BUD-REG) 18\",\n \"errorCode\":\"351\",\n \"eDocsJson\":{ \n  \"TravelAgency\":\"\",\n  \"Tours\":[ \n   { \n    \"TourName\":\"Dashing through the Danube (BUD-REG) 18\",\n    \"TourCode\":\"12152-37684\",\n    \"Passengers\":[ \n     { \n      \"PassengerNumber\":\"2995073\",\n      \"PassengerName\":\"Kacie Wells\",\n      \"PassengerDocuments\":[ \n       { \n        \"DocumentUrl\":\"https://mmd.dev.travcorpservices.com/documents/Uniworld/1565855/Kacie_Wells_1_CruiseTicket.pdf\",\n        \"DocumentType\":\"CruiseTicket\",\n        \"DocumentName\":\"Kacie_Wells_1_CruiseTicket.pdf\"\n       }\n      ],\n      \"ClientId\":\"2995073\"\n     }\n    ]\n   }\n  ],\n  \"SellingCompanyCode\":\"UNCANS\",\n  \"MTSMessaging\":0,\n  \"LeadPassengerName\":\"Kacie Wells\",\n  \"DepartureDate\":\"2018-12-02T00:00:00.000Z\",\n  \"BookingType\":\"D\",\n  \"BookingRef\":\"1565855\",\n  \"AdditionalDocuments\":[ \n   { \n    \"DocumentUrl\":\"https://mmd.dev.travcorpservices.com/documents/Uniworld/1565855/MarketingInfo.pdf\",\n    \"DocumentName\":\"MarketingInfo.pdf\"\n   },\n   { \n    \"DocumentUrl\":\"https://mmd.dev.travcorpservices.com/documents/Uniworld/1565855/CountryGuide.pdf\",\n    \"DocumentName\":\"CountryGuide.pdf\"\n   }\n  ]\n }\n}",
+			"settings":
+			{
+				"buffer_size": 1261,
+				"line_ending": "Unix",
+				"name": "Json I got back"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 452.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/benson.daniel/salesforce/bdprimary/edocs",
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src",
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes"
+	],
+	"file_history":
+	[
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/REST_savePassengerDocuments_V2.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/REST_savePassengerDocs_Longitude.cls",
+		"/Users/benson.daniel/Desktop/Welcome email.html",
+		"/Users/benson.daniel/Desktop/emailt.html",
+		"/Users/benson.daniel/salesforce/bdprimary/savepass_bkp.cls",
+		"/Users/benson.daniel/Downloads/REST_savePassengerDocuments_V2 (1).cls",
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/somethingclass.cls",
+		"/Users/benson.daniel/Downloads/REST_savePassengerDocuments_V2.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/REST_ProcessPassengerDocuments.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Utilities_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Service.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Utilities.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Request_Trigger_Helper.cls",
+		"/Users/benson.daniel/Downloads/ACNONE_mts_ch/src/apps/mts/app.js",
+		"/Users/benson.daniel/Downloads/ACNONE_mts_ch/src/apps/mts/translations/mts.en.json",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Questionnaire_Trigger_Helper.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/OpportunityTriggerHandler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Service_test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_MatchingService.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Booking_Passenger_Trigger_Helper.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_RuleService.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Account_Trigger_Handler.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Request_Trigger_Helper.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Questionnaire_Trigger_Helper.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Booking_Passenger_Trigger_Helper.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Manual_Merge_Reparenting_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Manual_Merge_Reparenting_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Archive.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Delete.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Evaluator.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Evaluator_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Handler_Class.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Matching_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_MatchingService.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_RealDataFactory.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_RealDataFactory_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Rule_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_RuleService.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Service.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Service_test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Test_Class.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_TestDataFactory.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_TestDFTrials.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Trigger_Handler.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Utilities.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Utilities_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/OpportunityTriggerHandler.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_RealDataFactory_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_RealDataFactory.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_TestDataFactory.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Trigger_Handler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_TestDFTrials.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Evaluator.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/package.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/config/.org_metadata",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/config/.local_store",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_TestDataFactoryTrials.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_TestDataFactoryTrials.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Matching_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Rule_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_RuleService.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Rule_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_RuleService.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Archive.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Evaluator_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Service_test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Service_test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Utilities_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Utilities.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Account_Trigger_Handler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Delete.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Handler_Class.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/Marketing_Consent_Test_Class.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Evaluator.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Evaluator_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Matching_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_MatchingService.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Service.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Service.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_RealDataFactory.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_RealDataFactory_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_TestDataFactory.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_TestDataFactoryTrials.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Utilities.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_TestDataFactory.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/triggers/OpportunityTrigger.trigger-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/triggers/Marketing_Consent_Trigger.trigger-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Matching_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Evaluator.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Evaluator_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_MatchingService.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/customMetadata/Criteria.Booking_Passenger_Rule_1_Criteria_1.md",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/customMetadata/Marketing_Consent_Rule.Booking_Passenger_Rule_1.md",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/triggers/Marketing_Consent_Trigger.trigger",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/Marketing Consent Revamp.sublime-project",
+		"/Users/benson.daniel/.mavensmate-config.json",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent DX/config/project-scratch-def.json",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/customMetadata/Criteria.Questionnaire_Rule_2.md",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/customMetadata/Formula_Update_Settings.Passenger_BookingNumber.md",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/customMetadata/Marketing_Consent_Rule.Request_Rule_2.md",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/destructiveChanges.xml",
+		"/Users/benson.daniel/.zshrc",
+		"/Users/benson.daniel/Documents/SolarGit.itermcolors",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/Marketing Consent Revamp.sublime-workspace",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_BuildService.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Rule_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_RealDataFactory.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_TestDataFactoryTrials.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Utilities_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_TriggerHandler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Build_test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_RealDataFactory_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Trigger_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Trigger_Test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_Build_test.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_MC_BuildService_Test.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/TestFactory.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/TestFactoryTrials.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_TriggerHandler.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/Marketing Consent Revamp/src/classes/MCNEW_Marketing_Consent_BuildService.cls-meta.xml",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/classes/Marketing_Consent_Trigger_Handler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/classes/Marketing_Consent_Handler_Class.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/pages/YTD_Status_Update.page",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/classes/YTD_Status.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/classes/Lead_Trigger_Handler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/classes/MDM_Helper_Class.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/classes/Account_Trigger_Handler.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/bdprimary_full/src/permissionsets/Create_Campaigns.permissionset"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 145.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"First_Departure_Date__c",
+			"AND Booking_Passenger__r.Booking__r.First_Departure_Date__c > :date.today() - 5",
+			"eDocsJson",
+			"req",
+			"RestResponse",
+			"dupDocs",
+			"from",
+			"response",
+			"postMMDJson",
+			"populateMaps",
+			"mmdJson",
+			"json",
+			"debug",
+			"http",
+			"req",
+			"RestRequest",
+			"response",
+			"AdditionalDocuments",
+			"response",
+			"http",
+			"addStandardDocuments"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/classes/REST_savePassengerDocs_Longitude.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14890,
+								14890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5503.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								825
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Json I got back",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "edocs.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
