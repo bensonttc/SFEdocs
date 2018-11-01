@@ -348,14 +348,14 @@ global with sharing class REST_savePassengerDocs_Longitude {
                             
                                 if(response.Message == Null){
                         
-                                    response.Status = 'failure';
+                                    response.Status = 'Failure';
                                     response.Message = 'There are no Documents associated with the Passenger ' + response.eDocsJson.Tours[i].Passengers[j].PassengerNumber + ' on the Tour ' + response.eDocsJson.Tours[i].TourName;
                                     response.errorCode = '401';
                                 
                                 }
                                 Else {
                                 
-                                    response.Status = 'failure';
+                                    response.Status = 'Failure';
                                     response.Message += ' and there are no Documents associated with the Passenger ' + response.eDocsJson.Tours[i].Passengers[j].PassengerNumber + ' on the Tour ' + response.eDocsJson.Tours[i].TourName;
                                     response.errorCode += ' + 401';
                                 
@@ -371,14 +371,14 @@ global with sharing class REST_savePassengerDocs_Longitude {
                     
                         If(response.Message == Null){
                         
-                            response.Status = 'failure';
+                            response.Status = 'Failure';
                             response.Message = 'There are no Passengers in Salesforce for tour ' + response.eDocsJson.Tours[i].TourName;
                             response.errorCode = '351';
                         
                         }
                         else{
                         
-                            response.Status = 'failure';
+                            response.Status = 'Failure';
                             response.Message += ' and there are no Passengers in Salesforce for tour ' + response.eDocsJson.Tours[i].TourName;
                             response.errorCode += ' + 351';
                         
@@ -394,14 +394,14 @@ global with sharing class REST_savePassengerDocs_Longitude {
                 
                     if(response.Message == Null){
                     
-                        response.Status = 'failure';
+                        response.Status = 'Failure';
                         response.Message = 'There are no Passengers in Tour ' + response.eDocsJson.Tours[i].TourName;
                         response.errorCode = '301';
                         
                     }
                     else {
                     
-                        response.Status = 'failure';
+                        response.Status = 'Failure';
                         response.Message += ' and There are no Passengers in Tour ' + response.eDocsJson.Tours[i].TourName;
                         response.errorCode += ' + 301';
                     
@@ -541,7 +541,7 @@ global with sharing class REST_savePassengerDocs_Longitude {
             }
         
         }
-
+        system.debug('This is the response '+response);
         System.enqueueJob(new ProcessEdocsResponse(System.JSON.serialize(response)));
     }
     

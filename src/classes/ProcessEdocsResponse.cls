@@ -12,7 +12,7 @@ public class ProcessEdocsResponse implements Queueable, Database.AllowsCallouts 
         req.setEndpoint('https://edocs.dev.travcorpservices.com/salesforce');
         req.setMethod('POST');
         req.setHeader('x-api-key', 'LR0H3LQzHt3uDxSGo5JpG6y863KrXi9E3AwLQ36G');
-        req.setBody(System.JSON.serialize(response));
+        req.setBody(response);
         HttpResponse res = altHttp.send(req);
     }
     

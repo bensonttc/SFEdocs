@@ -31,18 +31,8 @@
 			"file": "src/classes/REST_savePassengerDocs_Longitude.cls",
 			"settings":
 			{
-				"buffer_size": 37698,
-				"encoding": "UTF-8",
+				"buffer_size": 37460,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Json I got back\nUntitled \n{ \n \"status\":\"failure\",\n \"message\":\"There are no Passengers in Salesforce for tour Dashing through the Danube (BUD-REG) 18\",\n \"errorCode\":\"351\",\n \"eDocsJson\":{ \n  \"TravelAgency\":\"\",\n  \"Tours\":[ \n   { \n    \"TourName\":\"Dashing through the Danube (BUD-REG) 18\",\n    \"TourCode\":\"12152-37684\",\n    \"Passengers\":[ \n     { \n      \"PassengerNumber\":\"2995073\",\n      \"PassengerName\":\"Kacie Wells\",\n      \"PassengerDocuments\":[ \n       { \n        \"DocumentUrl\":\"https://mmd.dev.travcorpservices.com/documents/Uniworld/1565855/Kacie_Wells_1_CruiseTicket.pdf\",\n        \"DocumentType\":\"CruiseTicket\",\n        \"DocumentName\":\"Kacie_Wells_1_CruiseTicket.pdf\"\n       }\n      ],\n      \"ClientId\":\"2995073\"\n     }\n    ]\n   }\n  ],\n  \"SellingCompanyCode\":\"UNCANS\",\n  \"MTSMessaging\":0,\n  \"LeadPassengerName\":\"Kacie Wells\",\n  \"DepartureDate\":\"2018-12-02T00:00:00.000Z\",\n  \"BookingType\":\"D\",\n  \"BookingRef\":\"1565855\",\n  \"AdditionalDocuments\":[ \n   { \n    \"DocumentUrl\":\"https://mmd.dev.travcorpservices.com/documents/Uniworld/1565855/MarketingInfo.pdf\",\n    \"DocumentName\":\"MarketingInfo.pdf\"\n   },\n   { \n    \"DocumentUrl\":\"https://mmd.dev.travcorpservices.com/documents/Uniworld/1565855/CountryGuide.pdf\",\n    \"DocumentName\":\"CountryGuide.pdf\"\n   }\n  ]\n }\n}",
-			"settings":
-			{
-				"buffer_size": 1261,
-				"line_ending": "Unix",
-				"name": "Json I got back"
 			}
 		}
 	],
@@ -97,8 +87,8 @@
 	],
 	"file_history":
 	[
-		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/REST_savePassengerDocuments_V2.cls",
 		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/REST_savePassengerDocs_Longitude.cls",
+		"/Users/benson.daniel/salesforce/bdprimary/edocs/src/classes/REST_savePassengerDocuments_V2.cls",
 		"/Users/benson.daniel/Desktop/Welcome email.html",
 		"/Users/benson.daniel/Desktop/emailt.html",
 		"/Users/benson.daniel/salesforce/bdprimary/savepass_bkp.cls",
@@ -286,18 +276,18 @@
 				{
 					"buffer": 0,
 					"file": "src/classes/REST_savePassengerDocs_Longitude.cls",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 37698,
+						"buffer_size": 37460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14890,
-								14890
+								13693,
+								13713
 							]
 						],
 						"settings":
@@ -306,41 +296,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 5503.0,
+						"translation.x": 254.0,
+						"translation.y": 5341.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								814,
-								825
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Json I got back",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

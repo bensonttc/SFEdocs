@@ -5,7 +5,7 @@
     "namespace": "",
     "orgType": "developer",
     "loginUrl": "https://login.salesforce.com/",
-    "instanceUrl": "https://cs105.salesforce.com",
+    "instanceUrl": "https://cs88.salesforce.com",
     "workspace": "/Users/benson.daniel/salesforce/bdprimary",
     "subscription": [
         "ApexClass",
